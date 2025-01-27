@@ -1,0 +1,39 @@
+
+body{
+    background-color: #262626;
+    width: 100%;
+}
+
+.containerPrincipal{
+    list-style: none;
+    margin: 2rem 12rem; 
+    padding: 10px;
+    border: 1.5px solid #FFD700;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.NomeTarefa{
+    margin: 0;
+}
+
+.itemTarefas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    background-color: #313131;
+    padding: 10px;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 1.5rem 3rem;
+
+    :nth-child(2n) {
+        background-color: #1a1a1a;
+    }
+}
+
+.containerTarefas{
+    
+}
