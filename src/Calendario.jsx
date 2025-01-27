@@ -7,7 +7,7 @@ import "react-big-calendar/lib/addons/dragAndDrop/styles.css";
 import "./page/components/calendario.css";
 import eventosPadrao from './page/components/EventosPadrao';
 import EventModal from './page/components/modalEvent/EventModal';
-import AddEventos from './page/components/adicionar/addEvento';
+import AddEventos from './page/components/adicionar/AddEvento';
 import CustomToolBar from './page/components/customCalendar/CustomToolBar';
 import FiltroAtividades from './page/components/filtro/FiltroAtividades';
 import Cabecalho from './layout/cabecalho';
